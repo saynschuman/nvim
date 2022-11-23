@@ -25,3 +25,6 @@ telescope.setup({
 })
 
 telescope.load_extension("fzf")
+
+-- recent files extension
+require("telescope").load_extension("recent_files")
