@@ -21,6 +21,21 @@ telescope.setup({
         ["<C-q>"] = actions.send_selected_to_qflist + actions.open_qflist, -- send selected to quickfixlist
       },
     },
+    file_ignore_patterns = {
+      "^frontend/node_modules/",
+      "%.sh",
+      "%.html",
+      "%.css",
+      "%.js",
+      "%.yml",
+      "%.ssl",
+      "%.MD",
+      "%.lock",
+      "^backend/",
+      "%.py",
+      "%.todo",
+      "%.txt",
+    },
   },
 })
 
