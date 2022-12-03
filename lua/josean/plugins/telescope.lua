@@ -23,6 +23,8 @@ telescope.setup({
     },
     file_ignore_patterns = {
       "^frontend/node_modules/",
+      "^frontend/build/",
+      "^frontend/storybook-static/",
     },
   },
 })
