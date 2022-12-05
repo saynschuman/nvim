@@ -25,6 +25,7 @@ telescope.setup({
       "^frontend/node_modules/",
       "^frontend/build/",
       "^frontend/storybook-static/",
+      "%.js",
     },
   },
 })
