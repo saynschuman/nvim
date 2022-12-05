@@ -26,9 +26,9 @@ nvimtree.setup({
   },
   view = {
     adaptive_size = true,
-    mappings = {
-      list = {},
-    },
+    -- mappings = {
+    --   list = {},
+    -- },
   },
   -- disable window_picker for
   -- explorer to work well with
