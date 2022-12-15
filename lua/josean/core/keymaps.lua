@@ -64,5 +64,13 @@ vim.api.nvim_set_keymap(
   { noremap = true, silent = true }
 )
 
+-- hop
+keymap.set("n", "<space>w", ":HopWord<cr>")
+keymap.set("n", "<space>f", ":HopPattern<cr>")
+keymap.set("n", "<space>l", ":HopLineStart<cr>")
+
+-- lsp
+keymap.set("n", "<space>i", ":LspInstall<cr>")
+
 -- restart lsp server (not on youtube nvim video)
 keymap.set("n", "<leader>rs", ":LspRestart<CR>") -- mapping to restart lsp if necessary
