@@ -74,3 +74,6 @@ keymap.set("n", "<space>i", ":LspInstall<cr>")
 
 -- restart lsp server (not on youtube nvim video)
 keymap.set("n", "<leader>rs", ":LspRestart<CR>") -- mapping to restart lsp if necessary
+
+--bufonly
+keymap.set("n", "<leader>db", ":BufOnly<CR>") -- mapping to restart lsp if necessary

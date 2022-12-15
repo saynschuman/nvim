@@ -114,6 +114,8 @@ return packer.startup(function(use)
     end,
   })
 
+  use("numtostr/BufOnly.nvim")
+
   if packer_bootstrap then
     require("packer").sync()
   end
