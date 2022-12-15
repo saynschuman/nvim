@@ -1,6 +1,12 @@
 local opt = vim.opt -- for conciseness
 
+-- swapfile
 opt.swapfile = false -- don't use swapfile
+
+-- folding
+opt.foldmethod = "indent"
+opt.foldnestmax = 10
+opt.foldenable = false
 
 -- line numbers
 opt.relativenumber = true -- show relative line numbers
