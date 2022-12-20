@@ -9,7 +9,7 @@ opt.foldnestmax = 10
 opt.foldenable = false
 
 -- line numbers
-opt.relativenumber = true -- show relative line numbers
+-- opt.relativenumber = true -- show relative line numbers
 opt.number = true -- shows absolute line number on cursor line (when relative number is on)
 
 -- tabs & indentation
